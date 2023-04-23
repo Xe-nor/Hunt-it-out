@@ -23,4 +23,4 @@ Riddles can target a variety of soft skills, including critical thinking, proble
 > * name: 
 > * use email : admin@example.com
 > * password: admin
-***! LEAVE NAME EMPTY !***
+* ***! LEAVE NAME EMPTY !***
