@@ -20,7 +20,7 @@ Riddles can target a variety of soft skills, including critical thinking, proble
 - ***Communication:*** Riddles can be used as a way to encourage communication and discussion among a group. When individuals work together to solve a riddle, they must communicate their thoughts and ideas effectively to arrive at a solution.
 - ***Teamwork:*** Riddles can also promote teamwork, as individuals may need to work together to solve a particularly challenging riddle. By working together, individuals can learn to collaborate effectively and leverage each other's strengths to achieve a common goal.
 ## Admin Access
-name: 
+> * name: 
 > * use email : admin@example.com
 > * password: admin
 ***! LEAVE NAME EMPTY !***
