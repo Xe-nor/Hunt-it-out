@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>HuntItOut</title>
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="hold">
+          <h2 class="logo">XENOR</h2>
+          <nav class="navigation">
+            <a href="#" id="loginn" class="#"></a>
+            <a href="./adminlogin.html" id="loginadmin" class="#">Admin</a>
+            <a href="#" id="logout" class="#">LogOut</a>
+          </nav>
+        </div>
+      </header>
+      <div class="content">
+        <header class="main-header">
+          <div class="layers">
+            <div class="layer__header">
+              <div class="layers__caption">Welcome to</div>
+              <div class="layers__title">Hunt-It-Out</div>
+            </div>
+            <div
+              class="layer layers__base"
+              style="background-image: url(img/layer-base.png)"
+            ></div>
+            <div
+              class="layer layers__middle"
+              style="background-image: url(img/layer-middle.png)"
+            ></div>
+            <div
+              class="layer layers__front"
+              style="background-image: url(img/layer-front.png)"
+            ></div>
+          </div>
+        </header>
+
+        <article
+          class="main-article"
+          style="background-image: url(img/dungeon.jpg)"
+        >
+          <div class="main-article__content">
+            <h2 class="main-article__header">HuntItout</h2>
+            <p class="main-article__paragraph">
+              Welcome, brave adventurer! <br />
+              Are you ready to put your skills to the test? Your quest is to
+              solve a series of clues and emerge victorious. But beware - the
+              path ahead is treacherous and full of challenges. You must be
+              sharp, cunning, and quick-witted to succeed. Are you up for the
+              challenge? <br />
+              Good luck, adventurer!
+            </p>
+            <div class="container">
+              <a href="#"> <button id="start" class="btn">Start</button></a>
+            </div>
+          </div>
+          <!-- <div class="copy">
+            <button>Signout</button>
+          </div> -->
+        </article>
+      </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <script src="./JS/firebase.js" type="module"></script>
+    <script src="libs/gsap/gsap.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+    <script src="js/app.js" defer></script>
+  </body>
+</html>

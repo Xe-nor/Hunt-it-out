@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+.main,
+.main:hover {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/dungeon.jpg);
+  background-size: cover;
+}
+.options {
+  height: 25em;
+}
+
+.container {
+  position: absolute;
+  z-index: -1;
+  width: 1024px;
+  height: 576px;
+  box-shadow: 0px 0px 5px grey;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #2a2d34;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-direction: column;
+}
+.reset {
+  align-self: center;
+  position: relative;
+  left: 3em;
+}
+.resultcontainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.coll {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.col {
+  text-align: justify;
+  padding: 15px;
+  margin-top: 0.5em;
+  width: 100%;
+}
+.resultout {
+  display: flex;
+  width: 55%;
+  height: 70%;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  width: 100%;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#submit {
+  width: 40%;
+  background-color: rgb(47, 8, 73);
+  transition: 0.5s;
+  color: white;
+  outline: none;
+  border: none;
+  bottom: 0;
+  font-size: 25px;
+  display: block;
+  padding: 10px;
+  cursor: pointer;
+}
+.buttn {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#submit:hover {
+  background-color: rgb(34, 6, 53);
+}
+#clue {
+  width: 40%;
+  background-color: rgb(47, 8, 73);
+  transition: 0.5s;
+  color: white;
+  outline: none;
+  border: none;
+  bottom: 0;
+  font-size: 25px;
+  display: block;
+  padding: 10px;
+  cursor: pointer;
+}
+#cluebtn {
+  text-decoration: none;
+  color: white;
+}
+
+.box {
+  box-shadow: 0px -1px 1px grey;
+  width: 100%;
+}
+.canvas {
+ 
+  z-index: 1;
+}

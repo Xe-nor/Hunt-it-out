@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HuntItOut</title>
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/game.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="col">
+          <h3 id="questionBox">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit Debitis?
+          </h3>
+        </div>
+        <div class="options">
+          <div class="col box">
+            <input name="option" type="radio" id="first" value="a" required />
+            <label for="first">Testing 1</label>
+          </div>
+          <div class="col box">
+            <input name="option" type="radio" id="second" value="b" required />
+            <label for="second">Testing 2</label>
+          </div>
+          <div class="col box">
+            <input name="option" type="radio" id="third" value="c" required />
+            <label for="third">Testing 3</label>
+          </div>
+          <div class="col box">
+            <input name="option" type="radio" id="fourth" value="d" required />
+            <label for="fourth">Testing 4</label>
+          </div>
+        </div>
+
+        <div class="buttn">
+          <button id="submit">Submit</button>
+          <button id="clue">
+            <a href="" id="cluebtn" target="_blank" rel="noopener">Clue</a>
+          </button>
+        </div>
+      </div>
+      <div class="canvas"><canvas></canvas></div>
+    </div>
+  </body>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+  <!-- <script src="./JS/firebase.js" type="module"></script> -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"
+    integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="JS/Utils/utils.js"></script>
+  <script src="js/data/collisions.js"></script>
+  <script src="js/classes/CollisionBlock.js"></script>
+  <script src="js/classes/Sprite.js"></script>
+  <script src="js/classes/Player.js"></script>
+  <script src="JS/Utils/eventListeners.js"></script>
+  <script src="js/game.js"></script>
+</html>
