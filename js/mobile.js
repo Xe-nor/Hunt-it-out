@@ -10,10 +10,8 @@ ScrollSmoother.create({
   content: ".content",
 });
 if (
-  /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-    navigator.userAgent
-  )
+  navigator.platform.indexOf("Win") > -1 ||
+  navigator.platform.indexOf("Mac") > -1
 ) {
-  window.location.href = "/mobile.html";
-} 
-
+  window.location.href = "/index.html";
+}
