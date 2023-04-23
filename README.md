@@ -1,5 +1,5 @@
 # **Hunt-It-Out**
-A web based interactive Riddle Game, designed to test your Softskills.
+A web based interactive mystical themed Riddle Game, designed to test your Softskills.
 Created using HTML,CSS and JS. The website uses Firebase as its backend database and authentication provider.
 ## Technology used
 #### 1. Frontend:
@@ -24,3 +24,13 @@ Riddles can target a variety of soft skills, including critical thinking, proble
 > * use email : admin@example.com
 > * password: admin
 * ***! LEAVE NAME EMPTY !***
+## Answers for the Riddles
+- q1) d.leprechaun
+- q2) b.Cauldron
+- q3) b.nose
+- q4) b.dragon
+- q5) a.dream
+## Steps to setup
+1. Simply download zipfile,fork or clone the repository.
+2. run 'Index.html"
+:) keeping it simple
