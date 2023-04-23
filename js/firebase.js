@@ -23,12 +23,12 @@ function register() {
 
   // Validate input fields
   if (validate_email(email) == false || validate_password(password) == false) {
-    alert("Email or Password is Outta Line!!");
+    alert("Email or Password are not proper!");
     return;
     // Don't continue running the code
   }
   if (validate_field(full_name) == false) {
-    alert("One or More Extra Fields is Outta Line!!");
+    alert("Name is not proper");
     return;
   }
 
@@ -76,7 +76,7 @@ function login() {
 
   // Validate input fields
   if (validate_email(email) == false || validate_password(password) == false) {
-    alert("Email or Password is Outta Line!!");
+    alert("Email or Password are not proper!");
     return;
   }
   auth
@@ -136,6 +136,19 @@ function validate_field(field) {
     return true;
   }
 }
+
+firebase
+  .auth()
+  .setPersistence(firebase.auth.Auth.Persistence.LOCAL)
+  .then(() => {
+    // existing and future Auth states are now persisted in the current
+    // session only. Closing the browser would clear any existing state even
+    // if a user forgets to sign out.
+    console.log("User persistence set successfully.");
+  })
+  .catch((error) => {
+    console.error("Error setting user persistence: ", error);
+  });
 //
 var authDiv = document.getElementById("loginn");
 var startbtn = document.getElementById("start");
